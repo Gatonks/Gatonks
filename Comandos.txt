@@ -1,0 +1,7 @@
+git add -A
+git checkout master => vai para o master
+git branch teste => cria um branch teste
+git --soft "commit" => retonar parcialmente
+git --reset "commit" =>  retonar tudo limpo
+git commit -am "Salva" => salvar commit com comentario
+
