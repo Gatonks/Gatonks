@@ -1,7 +1,28 @@
+git --version
+
+configuração do usuario:
+git config --global user.name "nome"
+git config --global user.email "e-mail"
+git config --global core.editor sub
+git config --list => lista toda configuração
+
+começar o git:
+git init
+
+git status
 git add -A
+git commit "comentario"
+git log => mostra o que ja foi feito
+git branch => mosta em qual branch esta
+
 git checkout master => vai para o master
 git branch teste => cria um branch teste
 git --soft "commit" => retonar parcialmente
 git --reset "commit" =>  retonar tudo limpo
 git commit -am "Salva" => salvar commit com comentario
+git diff => mostra o que foi alterado
+git diff --name-only  => so os nomes do arquivos
+git checkout HEAD -- nome.arquivo => restaura o que foi feito
 
+Criando repositorio online.
+ssh-keygen -t rsa -b 4096 -C "o email"
