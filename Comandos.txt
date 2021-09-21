@@ -26,3 +26,6 @@ git checkout HEAD -- nome.arquivo => restaura o que foi feito
 
 Criando repositorio online.
 ssh-keygen -t rsa -b 4096 -C "o email"
+git push origin master => vai enviar para o repositorio
+
+.gitignore   => para nao visualizar os arquivos
